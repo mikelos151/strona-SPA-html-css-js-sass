@@ -1,0 +1,38 @@
+input,
+textarea,
+select {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid #ffff;
+  background-color: $primary-color;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #ffff;
+  text-transform: uppercase;
+
+  &::-webkit-input-placeholder {
+    color: #ffff;
+  }
+
+  &::-moz-placeholder {
+    color: #ffff;
+  }
+
+  &::-ms-placeholder {
+    color: #ffff;
+  }
+  &:-moz-placeholder {
+    color: #ffff;
+  }
+
+  &.errpr {
+      border-bottom: 1px solid #f00;
+  }
+
+}
+
+textarea {
+    height: 100px;
+}
+
